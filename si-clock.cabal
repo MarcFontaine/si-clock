@@ -17,6 +17,10 @@ license-file:  LICENSE
 
 cabal-version: >= 1.22
 build-type:    Simple
+               
+source-repository head
+  type:     git
+  location: git://github.com/MarcFontaine/si-clock
 
 library
   default-language: Haskell2010
